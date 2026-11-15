@@ -83,3 +83,13 @@ a { color: var(--color-principal); }
     background-color: var(--color-texto);
     color: var(--color-fondo);
 }
+
+@media (max-width: 991px) {
+    .hero {
+    padding: var(--espacio-32) 0;
+    }
+
+    .hero .btn {
+    margin-bottom: var(--espacio-48);
+    } 
+}
