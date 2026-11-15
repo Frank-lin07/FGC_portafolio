@@ -47,3 +47,39 @@ a { color: var(--color-principal); }
     color: var(--color-principal);
     text-decoration: underline;
 }
+
+/* Hero (Inicio) */
+.hero {
+    padding: var(--espacio-64) 0;
+}
+
+.hero-texto {
+    color: var(--color-texto);
+    max-width: 640px;
+    margin: var(--espacio-24) 0 var(--espacio-32);
+}
+
+.hero-foto {
+    max-width: 100%;
+    height: auto;
+    background-color: var(--color-secundario);
+    border-radius: var(--radio-8);
+}
+
+/* Botón primario */
+.boton-primario {
+    background-color: var(--color-principal);
+    color: var(--color-fondo);
+    font-family: var(--fuente-titulos);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: var(--espacio-12, 12px) var(--espacio-24);
+    border-radius: var(--radio-8);
+    border: none;
+}
+
+.boton-primario:hover {
+    background-color: var(--color-texto);
+    color: var(--color-fondo);
+}
