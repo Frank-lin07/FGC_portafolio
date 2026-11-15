@@ -163,3 +163,48 @@ a { color: var(--color-principal); }
     background-color: var(--color-principal);
     color: var(--color-fondo);
 }
+
+/* Llamado a contacto */
+.llamado p {
+    color: var(--color-texto);
+    margin-bottom: var(--espacio-24);
+}
+
+/* Footer (organismo) */
+.pie {
+    background-color: var(--color-principal);
+    color: var(--color-fondo);
+    padding: var(--espacio-48) 0 var(--espacio-24);
+}
+
+.pie h4 {
+    color: var(--color-fondo);
+}
+
+.pie p {
+    font-size: 16px;
+    margin-bottom: var(--espacio-8);
+}
+
+.pie a {
+    color: var(--color-fondo);
+}
+
+.pie-contacto {
+    text-align: right;
+}
+
+.pie-copy {
+    margin-top: var(--espacio-32);
+    font-family: var(--fuente-titulos);
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--color-neutro);
+}
+
+@media (max-width: 767px) {
+    .pie-contacto {
+    text-align: left;
+    margin-top: var(--espacio-24);
+    }
+}
