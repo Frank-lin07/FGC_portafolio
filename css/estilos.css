@@ -249,3 +249,25 @@ a { color: var(--color-principal); }
     font-size: 16px;
     margin-bottom: 0;
 }
+
+/* Chip de habilidad*/
+.lista-chips {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--espacio-16);
+}
+
+.chip {
+    font-family: var(--fuente-titulos);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--color-principal);
+    background-color: var(--color-fondo);
+    border: 1px solid var(--color-principal);
+    border-radius: var(--radio-16);
+    padding: var(--espacio-8) var(--espacio-16);
+}
