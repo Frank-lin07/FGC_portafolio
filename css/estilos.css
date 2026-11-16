@@ -321,3 +321,7 @@ a { color: var(--color-principal); }
     margin-top: var(--espacio-16);
     color: var(--color-exito);
 }
+
+[hidden] {
+    display: none !important;
+}
