@@ -235,3 +235,17 @@ a { color: var(--color-principal); }
     font-size: 16px;
     margin-bottom: var(--espacio-16);
 }
+
+/* Bloque de método (molécula) */
+.bloque-metodo {
+    background-color: var(--color-fondo);
+    border: 1px solid var(--color-neutro);
+    border-radius: var(--radio-8);
+    padding: var(--espacio-24);
+    height: 100%;
+}
+
+.bloque-metodo p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
