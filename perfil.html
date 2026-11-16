@@ -108,7 +108,41 @@
         </div>
     </section>
 
-    <!-- Aquí va el contacto -->
+    <section class="seccion pt-0" id="contacto">
+        <div class="container">
+        <h2>Contacto</h2>
+        <p class="intro">Cuéntame tu idea y hablamos.</p>
+
+        <div class="row g-5">
+            <div class="col-lg-6">
+            <form id="formContacto" novalidate>
+                <div class="campo">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                <span class="mensaje-error" id="error-nombre"></span>
+                </div>
+                <div class="campo">
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com">
+                <span class="mensaje-error" id="error-correo"></span>
+                </div>
+                <div class="campo">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame de tu proyecto"></textarea>
+                <span class="mensaje-error" id="error-mensaje"></span>
+                </div>
+                <button type="submit" class="btn boton-primario">Enviar mensaje</button>
+                <p class="mensaje-exito" id="exito" hidden>Mensaje enviado. Gracias por escribirme.</p>
+            </form>
+            </div>
+            <div class="col-lg-6">
+            <p><strong>Correo:</strong> grisalescastrillonfranklin@gmail.com</p>
+            <p><strong>Instagram:</strong> @frank.lin_07</p>
+            <p><strong>Ciudad:</strong> Pereira, Colombia</p>
+            </div>
+        </div>
+        </div>
+    </section>
 
     </main>
 
